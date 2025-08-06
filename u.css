@@ -1,0 +1,252 @@
+body {
+font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height:1.5;
+margin:0;
+ padding:0;
+background-color:grey;
+}
+header {
+background-color:yellow;
+color:blue;
+padding:20px o;
+box-shadow: 0 4px 6px rgba(0,0,0,8);
+}
+header h1 {
+margin:0;
+font-size:3rem;
+}
+nav {
+background-color: black;
+text-align: center;
+letter-spacing:0.5px;
+padding: 12px 0;
+}
+nav a {
+margin:0 20px;
+font-weight:600;
+color:white;
+font-size:1.1rem;
+text-decoration:none;
+}
+nav a:hover {
+color:#00ff00;
+/*tomato*/
+ text-decoration:underline;
+}
+button {
+width:300px;
+}
+#sri {
+height:200px;
+width:1100px;
+box-shadow:0 2px 10px rgba(0,0,0,1);
+background-color: #00ffff;
+border:1ps solid black;
+border-radius:10px;
+padding:40px;
+margin:30px auto;
+}
+#sri:hover {
+box-shadow:0 6px 16px rgba(255,0,0,1);
+}
+#hi {
+height:150px;
+width:150px;
+background-color:grey;
+border:1px solid black;
+border-radius:80px;
+display:inline-block;
+margin-left:100px;
+background-size:cover;
+background-image:url("r.jpg") ;
+}
+#hii {
+height:150px;
+width:150px;
+background-color:grey;
+border:1px solid black;
+border-radius:80px;
+display:inline-block;
+margin-left:200px;
+background-image:url("uday.jpg") ;
+background-size:cover;
+}
+
+#hiii {
+height:150px;
+width:150px;
+background-color:grey;
+border:1px solid black;
+border-radius:80px;
+display:inline-block;
+margin-left:200px;
+background-image:url("s.jpg") ;
+background-size:cover;
+}
+#hi:hover {
+box-shadow:0 6px 16px rgba(0,0,0,1);
+}
+#hii:hover {
+box-shadow:0 6px 16px rgba(0,0,0,1);
+}
+#hiii:hover {
+box-shadow:0 6px 16px rgba(0,0,0,1);
+}
+
+#udaya {
+height:200px;
+width:1100px;
+box-shadow:0 2px 10px rgba(0,0,0,1);
+background-color: #00ffff;
+border:1ps solid black;
+border-radius:10px;
+padding:40px;
+margin:30px auto;
+}
+#udaya:hover {
+box-shadow:0 6px 16px rgba(255,0,0,1);
+}
+#us {
+height:150px;
+width:150px;
+background-color:grey;
+border:1px solid black;
+border-radius:80px;
+display:inline-block;
+margin-left:100px;
+background-size:cover;
+background-image:url("li.jpg") ;
+}
+#uss {
+height:150px;
+width:150px;
+background-color:grey;
+border:1px solid black;
+border-radius:80px;
+display:inline-block;
+margin-left:200px;
+background-image:url("likk.jpg") ;
+background-size:cover;
+}
+
+#usss {
+height:150px;
+width:150px;
+background-color:grey;
+border:1px solid black;
+border-radius:80px;
+display:inline-block;
+margin-left:200px;
+background-image:url("lik.jpg") ;
+background-size:cover;
+}
+#us:hover {
+box-shadow:0 6px 16px rgba(0,0,0,1);
+}
+#uss:hover {
+box-shadow:0 6px 16px rgba(0,0,0,1);
+}
+#usss:hover {
+box-shadow:0 6px 16px rgba(0,0,0,1);
+}
+footer {
+background-color:black;
+color:white;
+padding:20px o;
+text-align:center;
+width: 100%;
+}
+footer:hover {
+box-shadow: 0 4px 6px rgba(0,255,0,1);
+} 
+
+
+
+#sri, #udaya {
+    gap: 20px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,1);
+    background-color: #00ffff;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1100px;
+}
+
+
+ 
+@media (max-width: 1024px) {
+    .box {
+        height: 300px;
+        width: 300px;
+        margin-top: 25px;
+    }
+    .boxs {
+        height: 50px;
+        font-size: 0.9rem;
+    }
+    .heading {
+        font-size: 16px;
+        height: 100px;
+    }
+} 
+
+
+/* ============= TABLET VIEW ============= */
+@media (max-width: 1024px) {
+    nav a {
+        margin: 5px 10px;
+        font-size: 1rem;
+    }
+    #hi, #hii, #hiii, #us, #uss, #usss {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+/* ============= MOBILE VIEW ============= */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 0.9rem;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav a {
+        display: block;
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+    #hi, #hii, #hiii, #us, #uss, #usss {
+        height: 100px;
+        width: 100px;
+    }
+    #sri, #udaya {
+        padding: 20px;
+        gap: 15px;
+    }
+}
+
+/* ============= SMALL MOBILE VIEW ============= */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    nav a {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+    #hi, #hii, #hiii, #us, #uss, #usss {
+        height: 80px;
+        width: 80px;
+    }
+    #sri, #udaya {
+        padding: 15px;
+        gap: 10px;
+    }
+}
